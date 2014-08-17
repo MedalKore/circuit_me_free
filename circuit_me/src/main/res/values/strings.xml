@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-  <string name="app_name">Circuit Me</string>
-  <string name="create_circuit">Create A Circuit</string>
-  <string name="action_settings">Settings</string>
-	<string name="cut_it">Start</string>
-
-</resources>

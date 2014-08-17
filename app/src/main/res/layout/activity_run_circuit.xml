@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+  <TextView
+    android:id="@+id/circuit_title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Test Title"
+    android:textStyle="bold"
+    android:textSize="@dimen/circuit_title_font_size"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"
+    />
+
+
+  <TextView
+    android:id="@+id/exercise"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/circuit_title"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="40dp"
+    android:textSize="@dimen/exercise_title_font_size"
+    android:text="Push Ups"
+    android:textStyle="bold"/>
+
+
+  <ImageButton
+    android:id="@+id/start_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:background="@drawable/start_button"
+    android:contentDescription="@string/start"
+    />
+
+  <TextView
+    android:id="@+id/start_pause_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/start"
+    android:textColor="@android:color/white"
+    android:textStyle="bold"
+    android:textSize="@dimen/start_pause_font_size"
+    android:layout_centerInParent="true"/>
+
+  <ProgressBar
+    android:id="@+id/circuit_timer"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    style="?android:attr/progressBarStyleHorizontal"
+    android:layout_centerInParent="true"
+    android:indeterminate="false"
+    android:max="60"
+    android:progress="45"
+    android:progressDrawable="@drawable/timer" />
+
+
+</RelativeLayout>

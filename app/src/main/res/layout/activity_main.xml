@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    tools:context="com.medalkore.circuitmefree.MainActivity">
+
+  <Button
+	  android:id="@+id/create_circuit"
+    android:text="@string/create_circuit"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+
+	<ListView
+		android:id="@+id/list"
+		android:scrollbars="none"
+		android:layout_marginTop="50dp"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"	/>
+</RelativeLayout>

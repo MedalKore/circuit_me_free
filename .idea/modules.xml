@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CircuitMe.iml" filepath="$PROJECT_DIR$/CircuitMe.iml" />
-      <module fileurl="file://$PROJECT_DIR$/circuit_me/circuit_me.iml" filepath="$PROJECT_DIR$/circuit_me/circuit_me.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CircuitMeFree.iml" filepath="$PROJECT_DIR$/CircuitMeFree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
 </project>

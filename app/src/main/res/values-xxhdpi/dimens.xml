@@ -1,0 +1,10 @@
+<resources>
+  <!-- Default screen margins, per the Android Design guidelines. -->
+  <dimen name="activity_horizontal_margin">16dp</dimen>
+  <dimen name="activity_vertical_margin">16dp</dimen>
+  <dimen name="circuit_title_font_size">25sp</dimen>
+  <dimen name="exercise_title_font_size">20sp</dimen>
+  <dimen name="start_pause_font_size">20sp</dimen>
+  <dimen name="start_pause_diameter">80sp</dimen>
+
+</resources>
