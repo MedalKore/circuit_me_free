@@ -10,8 +10,8 @@
         android:color="@color/green"
         />
       <size
-        android:width="45dp"
-        android:height="45dp" />
+        android:width="@dimen/start_pause_diameter"
+        android:height="@dimen/start_pause_diameter" />
     </shape>
   </item>
 </layer-list>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-  <item android:id="@+id/start_button">
+  <item android:id="@+id/pause_button">
     <shape
       android:shape="oval"
-      android:innerRadiusRatio="3"
-      android:thicknessRatio="9.0"
+      android:innerRadiusRatio="5"
+      android:thicknessRatio="17.0"
       >
       <solid
         android:color="@color/red"
         />
       <size
-        android:width="45dp"
-        android:height="45dp" />
+        android:width="@dimen/start_pause_diameter"
+        android:height="@dimen/start_pause_diameter" />
     </shape>
   </item>
 </layer-list>
