@@ -74,7 +74,6 @@ public class RunCircuitActivity extends Activity {
 					start_pause_button.setBackgroundResource(R.drawable.start_button);
 				}
 
-
 			}
 		});
 	}
